@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(232,191,106); }
+.s1 { color: rgb(186,186,186); }
+.s2 { color: rgb(106,135,89); }
+.s3 { color: rgb(169,183,198); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_main.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">&lt;?</span><span class="s1">xml version=</span><span class="s2">&quot;1.0&quot; </span><span class="s1">encoding=</span><span class="s2">&quot;utf-8&quot;</span><span class="s0">?&gt;</span><span class="s3"> 
+</span><span class="s0">&lt;RelativeLayout </span><span class="s1">xmlns:android=</span><span class="s2">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:tools=</span><span class="s2">&quot;http://schemas.android.com/tools&quot;</span><span class="s0"> 
+    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/activity_main&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingBottom=</span><span class="s2">&quot;@dimen/activity_vertical_margin&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingLeft=</span><span class="s2">&quot;@dimen/activity_horizontal_margin&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingRight=</span><span class="s2">&quot;@dimen/activity_horizontal_margin&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;@dimen/activity_vertical_margin&quot;</span><span class="s0"> 
+    </span><span class="s1">tools:context=</span><span class="s2">&quot;com.example.bayes.guesswhat.MainActivity&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;TextView 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:text=</span><span class="s2">&quot;Welcome to guess what&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignParentTop=</span><span class="s2">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/textView2&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;Button 
+        </span><span class="s1">android:text=</span><span class="s2">&quot;ok go!&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;44dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/button&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignParentBottom=</span><span class="s2">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_centerHorizontal=</span><span class="s2">&quot;true&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;EditText 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:inputType=</span><span class="s2">&quot;numberDecimal&quot;</span><span class="s0"> 
+        </span><span class="s1">android:ems=</span><span class="s2">&quot;10&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_above=</span><span class="s2">&quot;@+id/button&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_centerHorizontal=</span><span class="s2">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;110dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/editText&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;EditText 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:inputType=</span><span class="s2">&quot;textPersonName&quot;</span><span class="s0"> 
+        </span><span class="s1">android:text=</span><span class="s2">&quot;Antwort&quot;</span><span class="s0"> 
+        </span><span class="s1">android:ems=</span><span class="s2">&quot;10&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;24dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/editText2&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_above=</span><span class="s2">&quot;@+id/editText&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignLeft=</span><span class="s2">&quot;@+id/editText&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignStart=</span><span class="s2">&quot;@+id/editText&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;TextView 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:text=</span><span class="s2">&quot;nächste Frage&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_above=</span><span class="s2">&quot;@+id/editText2&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignLeft=</span><span class="s2">&quot;@+id/editText2&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignStart=</span><span class="s2">&quot;@+id/editText2&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;43dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:textAppearance=</span><span class="s2">&quot;@style/TextAppearance.AppCompat.Headline&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;Chronometer 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_toRightOf=</span><span class="s2">&quot;@+id/editText&quot;</span><span class="s0"> 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/chronometer2&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignParentBottom=</span><span class="s2">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignParentRight=</span><span class="s2">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_alignParentEnd=</span><span class="s2">&quot;true&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+</span><span class="s0">&lt;/RelativeLayout&gt;</span><span class="s3"> 
+</span></pre>
+</body>
+</html>
